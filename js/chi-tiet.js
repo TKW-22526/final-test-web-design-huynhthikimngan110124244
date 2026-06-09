@@ -33,7 +33,7 @@ const data = {
     },
     "hat-orijen-cho": {
         title: "Hạt Orijen Original Cho Chó (Grain-Free)",
-        price: "650.000đ", weight: "2kg",
+        price: "650.000đ", weight: "5kg",
         img: "../assets/hat-orijen-cho.jpg",
         desc: "Thương hiệu: Orijen (Canada). Grain-free – không ngũ cốc, 85% nguyên liệu từ thịt tươi và hải sản. Công thức Biologically Appropriate™ phù hợp với bản năng ăn thịt của chó. Phù hợp chó mọi lứa tuổi và mọi giống.",
         ingredients: "Thịt gà tươi (15%), thịt tây tươi (15%), cá trứng tươi (10%), thịt gà đông lạnh (10%), cá cơm (10%), thịt vịt tươi (8%), trứng gà (5%), gan gà tươi (5%), cá trích (5%), rau cải, đậu lăng, đậu xanh."
