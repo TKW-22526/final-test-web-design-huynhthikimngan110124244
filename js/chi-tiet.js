@@ -256,7 +256,7 @@ if (productType && data[productType]) {
     document.getElementById('prod-img').alt = p.title;
     document.getElementById('prod-desc').innerText = p.desc;
     document.getElementById('prod-ingredients').innerText = p.ingredients;
-    document.title = p.title + " - Paddy Pet Shop";
+    document.title = p.title + " - Sunshine Shop";
 } else {
     document.getElementById('prod-title').innerText = "Sản phẩm không tìm thấy";
     document.getElementById('prod-desc').innerText = "Vui lòng quay lại trang sản phẩm.";
