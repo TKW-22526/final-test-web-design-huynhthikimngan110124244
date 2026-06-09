@@ -12,21 +12,21 @@ const data = {
     },
     "hat-pro-plan": {
         title: "Hạt Purina Pro Plan Chó Trưởng Thành",
-        price: "450.000đ", weight: "7.5kg",
+        price: "450.000đ", weight: "1.3kg",
         img: "../assets/hat-pro-plan-cho.jpg",
         desc: "Thương hiệu: Purina. Chứa hơn 26% protein từ thịt thật, hỗ trợ cơ bắp săn chắc. Omega-6 và kẽm cho lông bóng mượt. Prebiotic tự nhiên nuôi dưỡng đường ruột. Không màu nhân tạo, hương liệu nhân tạo.",
         ingredients: "Thịt gà, gạo, bắp, gluten bắp, chất béo gia cầm, khoáng chất, dầu cá hồi (nguồn omega-3), taurine, vitamin A, D3, E, B12, kẽm sulfat."
     },
     "hat-pedigree": {
         title: "Hạt Pedigree Chó Trưởng Thành Vị Thịt Bò",
-        price: "185.000đ", weight: "3kg",
+        price: "185.000đ", weight: "2kg",
         img: "../assets/hat-pedigree-cho.jpg",
         desc: "Thương hiệu: Pedigree. Thức ăn hàng ngày cho chó trưởng thành vị thịt bò và rau củ. Bổ sung 18 vitamin và khoáng chất thiết yếu. Omega-3 và 6 giúp lông sáng bóng, hỗ trợ sức đề kháng. Giá cả phải chăng, phù hợp dùng hàng ngày.",
         ingredients: "Ngũ cốc, thịt bò và sản phẩm từ thịt (tối thiểu 4%), sản phẩm thực vật, dầu và chất béo, đường, khoáng chất, vitamin A, D3, E, B12, niacin, axit folic."
     },
     "hat-hills-cho": {
         title: "Hạt Hill's Science Diet Chó Con",
-        price: "520.000đ", weight: "4kg",
+        price: "520.000đ", weight: "1.8kg",
         img: "../assets/hat-hills-cho.jpg",
         desc: "Thương hiệu: Hill's. Công thức khoa học chuyên biệt cho chó con dưới 1 tuổi. DHA từ dầu cá hỗ trợ não bộ và thị lực. Canxi và phốt pho cân bằng giúp xương và răng chắc khỏe. Không chứa màu và hương liệu nhân tạo.",
         ingredients: "Thịt gà, bột gà, bột lúa mì, bắp, bột yến mạch, chất béo gia cầm, dầu cá, khoáng chất, caroten, vitamin C, vitamin E, taurine, beta-caroten."
@@ -40,7 +40,7 @@ const data = {
     },
     "hat-taste-wild-cho": {
         title: "Hạt Taste of the Wild Pacific Stream (Chó)",
-        price: "580.000đ", weight: "6kg",
+        price: "580.000đ", weight: "1.5kg",
         img: "../assets/hat-taste-wild-cho.jpg",
         desc: "Thương hiệu: Taste of the Wild (Mỹ). Grain-free, nguồn protein chính là cá hồi hun khói. Chứa probiotics K9 Strain® độc quyền hỗ trợ tiêu hóa. Omega-3 và 6 từ dầu cá hồi cho lông bóng. Không chứa ngũ cốc, màu, hương nhân tạo.",
         ingredients: "Cá hồi hun khói, cá hồi thái mặt, đậu lăng, đậu xanh, khoai tây, dầu cá hồi, carrot, việt quất, axit amin thiết yếu, probiotics (Lactobacillus acidophilus, Bifidobacterium)."
@@ -54,7 +54,7 @@ const data = {
     },
     "hat-nutri-source-cho": {
         title: "Hạt NutriSource Grain-Free Chó",
-        price: "380.000đ", weight: "2.72kg",
+        price: "380.000đ", weight: "2kg",
         img: "../assets/hat-nutri-source-cho.jpg",
         desc: "Thương hiệu: NutriSource (Mỹ). Công thức Good 4 Life® bổ sung enzyme tiêu hóa, probiotics và prebiotics. Grain-free, nguồn protein chính là thịt gà và cá hồi. Hỗ trợ cân bằng vi khuẩn đường ruột.",
         ingredients: "Thịt gà, bột cá hồi, đậu garbanzo, đậu lăng, đậu xanh, chất béo gia cầm, dầu cá hồi, khoáng chất, vitamin nhóm B, taurine, enzyme tiêu hóa, Lactobacillus acidophilus."
@@ -76,28 +76,28 @@ const data = {
     },
     "hat-me-o-adult": {
         title: "Hạt Me-O Adult Cho Mèo Trưởng Thành",
-        price: "95.000đ", weight: "1.3kg",
+        price: "195.000đ", weight: "1.3kg",
         img: "../assets/hat-me-o-adult.jpg",
         desc: "Thương hiệu: Me-O (Thái Lan). Thức ăn hàng ngày phổ biến nhất cho mèo trưởng thành. Hỗ trợ hệ tiêu hóa khoẻ mạnh, lông bóng mượt nhờ omega-6. Giá cả phải chăng, phù hợp dùng lâu dài. Có nhiều vị: Cá hồi, Cá biển, Gà.",
         ingredients: "Bột ngũ cốc, bột cá, protein thực vật thuỷ phân, chất béo động vật, khoáng chất, taurine, vitamin A, D3, E, sắt, kẽm, mangan."
     },
     "hat-hills-meo": {
         title: "Hạt Hill's Science Diet Mèo Trưởng Thành",
-        price: "430.000đ", weight: "1.58kg",
+        price: "430.000đ", weight: "1.5kg",
         img: "../assets/hat-science-diet-meo.jpg",
         desc: "Thương hiệu: Hill's. Được khuyến nghị bởi bác sĩ thú y. Công thức cân bằng dưỡng chất chính xác cho mèo từ 1–6 tuổi. Hỗ trợ kiểm soát cân nặng lý tưởng. Chứa Vitamin E và C chống oxy hoá.",
         ingredients: "Thịt gà, bột thịt gà, bột lúa mì, bắp, chất béo gia cầm, bột cá, bột gạo, khoáng chất, taurine, caroten, vitamin C, E, beta-caroten, kẽm."
     },
     "hat-purina-one-meo": {
         title: "Hạt Purina ONE Tender Selects Cho Mèo",
-        price: "265.000đ", weight: "1.36kg",
+        price: "265.000đ", weight: "1.5kg",
         img: "../assets/hat-purina-one-meo.jpg",
         desc: "Thương hiệu: Purina ONE. Hạt có hai kết cấu – cứng và mềm – kích thích khẩu vị mèo. Nguồn protein số 1 là thịt gà thật. Omega-6 cho lông bóng khỏe. Không màu, hương nhân tạo.",
         ingredients: "Thịt gà, bột thịt gà, bắp, chất béo gia cầm, bột lúa mì, gạo, khoáng chất, taurine, vitamin A, D3, E, B12, axit folic, kẽm sulfat, sắt sulfat."
     },
     "hat-orijen-meo": {
         title: "Hạt Orijen Cat & Kitten (Grain-Free)",
-        price: "620.000đ", weight: "1.8kg",
+        price: "420.000đ", weight: "1.8kg",
         img: "../assets/hat-orijen-meo.jpg",
         desc: "Thương hiệu: Orijen (Canada). 85% nguyên liệu từ thịt tươi và hải sản. Phù hợp cả mèo con lẫn mèo trưởng thành. Grain-free hoàn toàn. Protein cao (40%) đáp ứng bản năng ăn thịt của mèo.",
         ingredients: "Thịt gà tươi (15%), cá trứng tươi (15%), gan gà tươi (10%), thịt gà đông lạnh (10%), cá cơm (10%), trứng gà (5%), đậu lăng, đậu xanh, rau bina, carrot, dầu cá trứng."
@@ -169,14 +169,14 @@ const data = {
     },
     "snack-dentastix": {
         title: "Snack DentaStix Sạch Răng Cho Chó",
-        price: "55.000đ", weight: "7 que / 180g",
+        price: "55.000đ", weight: "180g",
         img: "../assets/snack-dentastix.jpg",
         desc: "Thương hiệu: Pedigree DentaStix. Hình que đặc biệt kết hợp thành phần làm sạch giúp giảm mảng bám và cao răng tới 80%. Sử dụng 1 que/ngày. Phù hợp chó từ 4 tháng tuổi, cân nặng 10–25kg.",
         ingredients: "Tinh bột ngô, glycerol, chất độn (E460), protein thuỷ phân, cellulose, khoáng chất, hexametaphosphate natri (làm sạch răng), dầu hướng dương."
     },
     "snack-greenies": {
         title: "Snack Greenies Sạch Răng & Hơi Thở Cho Chó",
-        price: "120.000đ", weight: "12 miếng / 130g",
+        price: "120.000đ", weight: "130g",
         img: "../assets/snack-greenies.jpg",
         desc: "Thương hiệu: Greenies. Được khuyến nghị bởi Hội Thú Y Nha Khoa Thú Y (VOHC). Làm giảm mảng bám và cao răng, khử mùi hơi thở. Thành phần từ thiên nhiên, dễ tiêu hóa. Dùng 1 miếng/ngày cho chó 7–11kg.",
         ingredients: "Gelatine, lúa mì, glycerol, chlorophyllin đồng (E141), mùi vị thiên nhiên, khoáng chất, vitamin E, dầu hướng dương, hexametaphosphate natri."
@@ -205,7 +205,7 @@ const data = {
     // ===== PHỤ KIỆN =====
     "giuong-thu-cung": {
         title: "Giường Tròn Lông Mịn Cho Chó Mèo",
-        price: "195.000đ", weight: "Ø50cm",
+        price: "195.000đ", weight: "50cm",
         img: "../assets/giuong-thu-cung.jpg",
         desc: "Giường lông siêu mềm bo tròn giúp thú cưng cảm thấy an toàn ấm áp. Đệm dày 5cm tháo rời được, giặt máy thoải mái. Đế chống trượt. Phù hợp chó mèo dưới 8kg.",
         ingredients: "Chất liệu: Vải lông mịn polyester (mặt trên), vải Oxford chống thấm (đế), bông PP nhồi bên trong. Màu: Be, Xám, Hồng."
